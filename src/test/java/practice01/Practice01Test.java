@@ -20,6 +20,6 @@ public class Practice01Test {
   @Test
   public void shouldReturnDescription() {
     Person person = new Person("Tom", 21);
-    assertEquals("My name is Tom. I am 21 years old.", person.getDescription());
+    assertEquals("My name is Tom. I am 21 years old.", person.introduce());
   }
 }
