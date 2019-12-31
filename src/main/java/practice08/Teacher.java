@@ -17,7 +17,7 @@ public class Teacher extends Person {
 
   @Override
   public String introduce() {
-    String temp = (this.getKlass().getNumber() == 0) ? "no klass" : "klass 2";
+    String temp = (this.getKlass().getNumber() == 0) ? "no klass" : "klass " + this.getKlass().getNumber();
     return super.introduce() + " I am a Teacher. I teach " + temp + ".";
   }
 
